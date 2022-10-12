@@ -12,10 +12,10 @@ const Card = (props) => {
       </div>
 
       <div className="heading">
-        <div>
+        <div className="name">
           {first_name} {last_name}
         </div>
-        <div>{email}</div>
+        <div className="email">{email}</div>
       </div>
     </div>
   );
